@@ -16,6 +16,25 @@ public class ProvaQ10 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+    int cont, soma;
+
+        cont =  0 ;
+        soma =  0 ;
+
+        while (cont > = 0 e  & cont <= 500 ) {
+        cont ++ ;
+        if (cont % 2  ! =  0 e  & cont % 3  ==  0 ) {
+        soma + = cont;
+        }
+        }
+
+        JOptionPane . showMessageDialog ( null , " Soma dos números múltiplos de"
+                + " três entre 0 e 500 é: "  + soma);
+
     }
-    
+
 }
+
+    
+
